@@ -82,7 +82,6 @@
 **C и JavaScript**
 - `decimal_C` — работа с десятичными числами на C
 - `cosmos_play_js` — сцена на JavaScript, автотесты через **Playwright**
-- `waves_math_js` — математика волн на JavaScript
 
 `Python` · `Java` · `C` · `JavaScript` · `flake8` · `Playwright` · `Makefile`
 
