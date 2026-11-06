@@ -7,17 +7,19 @@
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="SQL" src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
   <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black">
+  <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white">
   <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white">
 </p>
 
 ---
 
-## Избранное
+## Главные проекты
 
 ### [Mirro](https://github.com/kepanasyuke/Mirro-) — локальная система ответов на вопросы
 
@@ -32,11 +34,83 @@
 
 `Python` · `RAG` · `NLP` · `HTTP API` · `unittest`
 
-### [sysadmin-portfolio](https://github.com/kepanasyuke/sysadmin-portfolio) — инфраструктура и автоматизация
+### [Guilbert Photons](https://github.com/kepanasyuke/something-else/tree/main/guilbert_photons_science_search_service) — поисковый сервис по научным публикациям
 
-Учебный курс и рабочие скрипты автоматизации, инфраструктура как код. Материалы на русском и английском.
+Проект из репозитория [`something-else`](https://github.com/kepanasyuke/something-else).
+Собран целиком за один день — от сборки корпуса до экспорта результатов.
 
-`Ansible` · `Docker` · `PowerShell` · `Linux`
+- Бэкенд на **FastAPI**, локальный поиск по **5 021 записи**
+- Интерфейс на русском, французском и немецком, режим «все языки»
+- Метаданные **OpenAlex**: авторы, идентификаторы, ссылки на источники, отметка открытого доступа
+- Экспорт результатов в **JPEG, GIF, XLSX и PPTX**
+- `Makefile` с командами `install`, `run`, `check`, `build-corpus`; архитектура описана в `DESIGN.md`
+
+`Python` · `FastAPI` · `поиск` · `XLSX/PPTX` · `Makefile`
+
+---
+
+## Остальные репозитории и что внутри
+
+### [something-else](https://github.com/kepanasyuke/something-else)
+Несколько независимых проектов в одной папке:
+
+- **guilbert_photons_science_search_service** — поисковый сервис на FastAPI (описан выше)
+- **VillaOenningerSimulator** — симулятор виллы с разрушением объектов в **Unity на C#**: менеджер разрушения дома, продвинутая камера, разрезание мешей, звук
+- **fluid-materials-app** — визуализация материалов на **GLSL**: жидкость, гелий, газ
+- **mercury-app** — шейдер ртути на **GLSL**
+- **my-stratu-app** — приложение на **React + Vite** со сборкой в `dist`
+
+`C#` · `Unity` · `GLSL` · `React` · `FastAPI`
+
+### [fumiklea](https://github.com/kepanasyuke/fumiklea)
+Мой первый репозиторий — двенадцать проектов папками, на четырёх языках. Здесь я училась
+работать с тестами, линтерами и `Makefile`, а не «кодом в один файл».
+
+**Python**
+- `anime_parser_python` — парсер сайта с тестами и `flake8`, разделение на `src` и `tests`
+- `banking_fraud_analytics_with_dataset_phyton` — аналитика банковских транзакций на датасете, фрод-аналитика
+- `bug_python` — разбор ошибок и отладка
+- `calc_app_python` — веб-калькулятор на шаблонах и статике
+- `currency_converter_python` — конвертер валют
+- `christina_python` — прототип личного ассистента
+
+**Java**
+- `library_api_java` — API библиотеки: предметные сущности и связи между ними
+- `tic_tac_toe_java` — крестики-нолики
+- `tuhs_linux_animation_java` — анимация в терминале
+
+**C и JavaScript**
+- `decimal_C` — работа с десятичными числами на C
+- `cosmos_play_js` — сцена на JavaScript, автотесты через **Playwright**
+- `waves_math_js` — математика волн на JavaScript
+
+`Python` · `Java` · `C` · `JavaScript` · `flake8` · `Playwright` · `Makefile`
+
+### [sysadmin-portfolio](https://github.com/kepanasyuke/sysadmin-portfolio)
+Инфраструктура как код и автоматизация: курс, рабочие скрипты, плейбуки. Материалы на русском и английском.
+
+`Ansible` · `Docker` · `PowerShell` · `Linux` · `MIT License`
+
+### [informatics-site](https://github.com/kepanasyuke/informatics-site)
+Онлайн-курс информатики для 3–11 классов и подготовки к ЕГЭ: уроки, презентации, игры «Собери код».
+Внутри — свой сервер на Python (`server.py`, папка `_server`), материалы по классам, `sitemap.xml`.
+
+`Python` · `HTML` · `педагогика`
+
+### [pixel-admin](https://github.com/kepanasyuke/pixel-admin)
+Пиксельный платформер-квест по программам системного администратора. Запуск через PowerShell-скрипты.
+
+`HTML` · `JavaScript` · `PowerShell`
+
+### [projects-for-kids](https://github.com/kepanasyuke/projects-for-kids)
+Проекты для школьной практики: сборка в Crazy Machines, ASCII-графика, задания для учеников.
+
+`HTML` · `педагогика`
+
+### [fast-utils](https://github.com/kepanasyuke/fast-utils)
+Утилиты, чтобы делать быстро: движок генерации презентаций (`presentation_engine`).
+
+`Python`
 
 ---
 
@@ -45,17 +119,11 @@
 | Направление | Что делаю |
 |---|---|
 | **Данные** | SQL (джойны, агрегации, CTE), PostgreSQL, обработка и нормализация выгрузок на Python, контроль качества данных |
-| **Автоматизация** | Скрипты и утилиты на Python и PowerShell, интеграции с внешними API, автоматическая отчётность |
+| **Бэкенд** | HTTP-сервисы на Python и FastAPI, интеграции с внешними API, тесты, документация |
 | **AI-системы** | Локальные RAG-системы, поиск по знаниям, OpenAI-совместимые API, знаниевые графы |
+| **Автоматизация** | Скрипты на Python и PowerShell, автоматическая отчётность, автотесты интерфейса |
 | **Инфраструктура** | Docker, Ansible, развёртывание сервисов на Linux, Git |
 | **Документация** | Техническая документация, по которой работает новый человек; ревью кода; наставничество |
-
-## Остальные проекты
-
-- **[fast-utils](https://github.com/kepanasyuke/fast-utils)** — утилиты для быстрой генерации презентаций
-- **[informatics-site](https://github.com/kepanasyuke/informatics-site)** — онлайн-курс информатики 3–11 класс + ЕГЭ: уроки, презентации, игры
-- **[pixel-admin](https://github.com/kepanasyuke/pixel-admin)** — пиксельный платформер-квест по программам системного администратора
-- **[projects-for-kids](https://github.com/kepanasyuke/projects-for-kids)** — проекты для школьной практики
 
 ## Образование
 
