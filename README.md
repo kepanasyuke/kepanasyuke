@@ -53,8 +53,8 @@
 ## Остальные проекты
 
 - **[projects-for-kids](https://github.com/kepanasyuke/projects-for-kids)** — проекты для школьной практики
-- **[informatics-site](https://github.com/kepanasyuke/informatics-site)** — онлайн-курс информатики 3–11 класс + ЕГЭ: уроки, презентации, игры
 - **[pixel-admin](https://github.com/kepanasyuke/pixel-admin)** — пиксельный платформер-квест по программам системного администратора
+- **[informatics-site](https://github.com/kepanasyuke/informatics-site)** — онлайн-курс информатики 3–11 класс + ЕГЭ: уроки, презентации, игры
 
 ## Образование
 
