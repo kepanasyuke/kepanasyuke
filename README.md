@@ -34,18 +34,32 @@
 
 `Python` · `RAG` · `NLP` · `HTTP API` · `unittest`
 
-### [Guilbert Photons](https://github.com/kepanasyuke/something-else/tree/main/guilbert_photons_science_search_service) — поисковый сервис по научным публикациям
+### [Search Service](https://github.com/kepanasyuke/something-else/tree/main/search-service) — асинхронный полнотекстовый поиск
 
 Проект из репозитория [`something-else`](https://github.com/kepanasyuke/something-else).
-Собран целиком за один день — от сборки корпуса до экспорта результатов.
+Документы живут в **SQLite**, поиск идёт через **Elasticsearch**, FastAPI связывает их и держит оба хранилища в согласованном состоянии.
 
-- Бэкенд на **FastAPI**, локальный поиск по **5 021 записи**
-- Интерфейс на русском, французском и немецком, режим «все языки»
-- Метаданные **OpenAlex**: авторы, идентификаторы, ссылки на источники, отметка открытого доступа
-- Экспорт результатов в **JPEG, GIF, XLSX и PPTX**
-- `Makefile` с командами `install`, `run`, `check`, `build-corpus`; архитектура описана в `DESIGN.md`
+- Асинхронная работа с базой и индексом (`aiosqlite`), анализатор `russian` в Elasticsearch
+- Автозагрузка CSV при старте, пагинация, подсветка найденных слов, экспорт в **XLSX**
+- REST API с OpenAPI (`/search`, `/documents/{id}`, `/health`) и веб-интерфейс
+- **Docker + docker-compose**: весь стек поднимается одной командой, настройки в `.env`
+- **87% покрытие тестами** (pytest + coverage), `make lint`, `format`, `audit`, `test-coverage`
+- Правила кода: функции до 30–50 строк, одна точка выхода, без `break`/`continue`
 
-`Python` · `FastAPI` · `поиск` · `XLSX/PPTX` · `Makefile`
+`Python` · `FastAPI` · `Elasticsearch` · `SQLite` · `Docker` · `pytest`
+
+### [bug_python](https://github.com/kepanasyuke/fumiklea/tree/main/bug_python) — ретро-игра про первый баг
+
+Сентябрь 1947 года, Гарвард, вычислительная машина Mark II: в реле №70 находят моль — тот самый
+«first actual case of bug being found». Игрок вынимает насекомое латунным пинцетом и переносит
+его в журнал отчёта, после чего видит историческую запись.
+
+- Симуляция ЭЛТ-монитора на **pygame**: скан-линии, фосфорное послесвечение, виньетка, глитчи
+- Живая моль внутри реле, журнал 1947 года с эффектом печатной машинки
+- Звуки реле, пинцета и старого принтера
+- `Makefile` с `install-system`, `install-venv`, `install-x11`, `play`
+
+`Python` · `pygame` · `история вычислений`
 
 ---
 
@@ -54,7 +68,7 @@
 ### [something-else](https://github.com/kepanasyuke/something-else)
 Несколько независимых проектов в одной папке:
 
-- **guilbert_photons_science_search_service** — поисковый сервис на FastAPI (описан выше)
+- **search-service** — асинхронный поисковый сервис на FastAPI, Elasticsearch и SQLite (описан выше)
 - **VillaOenningerSimulator** — симулятор виллы с разрушением объектов в **Unity на C#**: менеджер разрушения дома, продвинутая камера, разрезание мешей, звук
 - **fluid-materials-app** — визуализация материалов на **GLSL**: жидкость, гелий, газ
 - **mercury-app** — шейдер ртути на **GLSL**
@@ -69,7 +83,7 @@
 **Python**
 - `anime_parser_python` — парсер сайта с тестами и `flake8`, разделение на `src` и `tests`
 - `banking_fraud_analytics_with_dataset_phyton` — аналитика банковских транзакций на датасете, фрод-аналитика
-- `bug_python` — разбор ошибок и отладка
+- `bug_python` — игра про историю первого бага: Гарвард 1947 года, моль в реле Mark II (описана выше)
 - `calc_app_python` — веб-калькулятор на шаблонах и статике
 - `currency_converter_python` — конвертер валют
 - `christina_python` — прототип личного ассистента
