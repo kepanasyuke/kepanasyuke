@@ -91,26 +91,21 @@
 
 `Ansible` · `Docker` · `PowerShell` · `Linux` · `MIT License`
 
-### [informatics-site](https://github.com/kepanasyuke/informatics-site)
-Онлайн-курс информатики для 3–11 классов и подготовки к ЕГЭ: уроки, презентации, игры «Собери код».
-Внутри — свой сервер на Python (`server.py`, папка `_server`), материалы по классам, `sitemap.xml`.
+### [projects-for-kids](https://github.com/kepanasyuke/projects-for-kids)
+Проекты для школьной практики: сборка в Crazy Machines, ASCII-графика, задания для учеников.
 
-`Python` · `HTML` · `педагогика`
+`HTML` · `педагогика`
 
 ### [pixel-admin](https://github.com/kepanasyuke/pixel-admin)
 Пиксельный платформер-квест по программам системного администратора. Запуск через PowerShell-скрипты.
 
 `HTML` · `JavaScript` · `PowerShell`
 
-### [projects-for-kids](https://github.com/kepanasyuke/projects-for-kids)
-Проекты для школьной практики: сборка в Crazy Machines, ASCII-графика, задания для учеников.
+### [informatics-site](https://github.com/kepanasyuke/informatics-site)
+Онлайн-курс информатики для 3–11 классов и подготовки к ЕГЭ: уроки, презентации, игры «Собери код».
+Внутри — свой сервер на Python (`server.py`, папка `_server`), материалы по классам, `sitemap.xml`.
 
-`HTML` · `педагогика`
-
-### [fast-utils](https://github.com/kepanasyuke/fast-utils)
-Утилиты, чтобы делать быстро: движок генерации презентаций (`presentation_engine`).
-
-`Python`
+`Python` · `HTML` · `педагогика`
 
 ---
 
