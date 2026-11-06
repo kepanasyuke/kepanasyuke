@@ -126,6 +126,34 @@
 - НИУ ВШЭ — прикладное искусство
 - НГПУ — педагогическое образование
 
+## Прикладное искусство
+
+Второе высшее — НИУ ВШЭ, прикладное искусство. Оттуда привычка к композиции, цвету и постановке
+кадра: те же навыки, что нужны в визуализации данных и интерфейсах. Несколько работ со съёмок.
+
+<table>
+  <tr>
+    <td><img src="photos/photo-01.jpg" width="220" alt="Постановочный кадр 1"></td>
+    <td><img src="photos/photo-02.jpg" width="220" alt="Постановочный кадр 2"></td>
+    <td><img src="photos/photo-03.jpg" width="220" alt="Постановочный кадр 3"></td>
+  </tr>
+  <tr>
+    <td><img src="photos/photo-04.jpg" width="220" alt="Постановочный кадр 4"></td>
+    <td><img src="photos/photo-05.jpg" width="220" alt="Постановочный кадр 5"></td>
+    <td><img src="photos/photo-06.jpg" width="220" alt="Постановочный кадр 6"></td>
+  </tr>
+  <tr>
+    <td><img src="photos/photo-07.jpg" width="220" alt="Постановочный кадр 7"></td>
+    <td><img src="photos/photo-08.jpg" width="220" alt="Постановочный кадр 8"></td>
+    <td><img src="photos/photo-09.jpg" width="220" alt="Постановочный кадр 9"></td>
+  </tr>
+  <tr>
+    <td><img src="photos/photo-10.jpg" width="220" alt="Постановочный кадр 10"></td>
+    <td><img src="photos/photo-11.jpg" width="220" alt="Постановочный кадр 11"></td>
+    <td><img src="photos/photo-12.jpg" width="220" alt="Постановочный кадр 12"></td>
+  </tr>
+</table>
+
 ## Связаться
 
 Резюме: [cloud.mail.ru](https://cloud.mail.ru/public/ys9R/4Rk5TpzgL)
