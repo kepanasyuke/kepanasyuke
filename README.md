@@ -2,7 +2,7 @@
 
 <a href="https://kepanasyuke.github.io/portfolio/"><img src="preview/portfolio-hero.png" alt="Сайт-портфолио: первый экран" width="880"></a>
 
-**Сайт-портфолио:** [kepanasyuke.github.io/portfolio](https://kepanasyuke.github.io/portfolio/) — 19 проектов разом: скриншоты, видео, фильтры по стеку.
+**Сайт-портфолио:** [kepanasyuke.github.io/portfolio](https://kepanasyuke.github.io/portfolio/) — 25 проектов разом, около 179 тысяч строк кода: скриншоты, видео, фильтры по стеку.
 
 **Python-инженер.** Пишу код с 2021 года: данные, автоматизация, локальные AI-системы.
 Разбираю задачу от «принесли на словах» до работающего сервиса с тестами и документацией.
