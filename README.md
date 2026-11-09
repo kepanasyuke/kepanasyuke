@@ -90,6 +90,78 @@
 
 ## Остальные репозитории и что внутри
 
+### [ml-portfolio](https://github.com/kepanasyuke/ml-portfolio) — ML-портфолио на семь разделов
+Семь проектов под вакансию «Инженер ML (Uplift-моделирование)»: uplift-моделирование промокодов,
+промо-экономика, A/B-тесты, пайплайны, клиентская ценность, мониторинг и SQL-аналитика. У каждого — бэкенд
+на FastAPI, ML-логика и дашборд; живой кабинет собран статически и лежит на GitHub Pages.
+
+`Python` · `FastAPI` · `pandas` · `scikit-learn` · `Jinja2` · `GitHub Pages`
+
+### [f6-portfolio](https://github.com/kepanasyuke/f6-portfolio) — стенд Threat Intelligence
+Восемь сервисов под задачи команды Threat Intelligence и два приложения поверх них: портал-обозреватель
+баз и консоль, которая собирает бизнес-разделы через API сервисов. Бэкенды на FastAPI, фронтенды без сборки,
+тесты и собственные данные.
+
+`Python` · `FastAPI` · `SQLite` · `PostgreSQL` · `SQL`
+
+### [support-desk](https://github.com/kepanasyuke/support-desk) — восемь модулей клиентской поддержки
+Стек вакансии: PHP 8.3 и Yii2 REST на бэкенде, React 18 с TypeScript и Vite на фронтенде, AI-функции
+в бэкенде, общий дизайн-стиль и оконная оболочка на Electron. Экраны сняты Playwright с работающих сервисов.
+
+`PHP` · `Yii2` · `React` · `TypeScript` · `Electron` · `Playwright`
+
+### [abs-migration](https://github.com/kepanasyuke/abs-migration) — АРМ системного аналитика для миграции АБС
+Перевод данных из legacy-АБС в ЦФТ-Банк: карта данных, качество, сверка остатков, правила трансформации,
+проводки, cut-over, ассистент по регламентам. Оконный интерфейс, микросервисный бэкенд на FastAPI, SQLite,
+`2 102` теста.
+
+`Python` · `FastAPI` · `SQLite` · `pytest` · `банковские данные`
+
+### [onec-portfolio](https://github.com/kepanasyuke/onec-portfolio) — интерфейс 1С в браузере
+Веб-приложение в стиле клиента 1С:Предприятие 8.3 («Такси»): восемь разделов под вакансию программиста 1С —
+заказы и резервы в УТ, ОСВ с проверкой сальдо в БП, ЗУП, документооборот, карты, XML/SOAP, расширения
+и планы запросов на MS SQL.
+
+`1С` · `УТ 11.5` · `БП 3.0` · `XML/SOAP` · `MS SQL`
+
+### [lada-cifra-content-analytics](https://github.com/kepanasyuke/lada-cifra-content-analytics) — пять сервисов контент-аналитики
+Каталог, качество контента, тренды, товарная матрица и прогноз спроса. Бэкенд, интерфейс в визуальном языке
+сайта LADA Цифра, тесты, запуск одной командой.
+
+`Python` · `FastAPI` · `SQL` · `аналитика контента`
+
+### [de-portfolio](https://github.com/kepanasyuke/de-portfolio) — инженерия данных
+Batch-хранилище на Airflow и Spark, потоковая обработка на Kafka, движок качества данных, витрины в ClickHouse,
+паритет при миграции хранилища и игра про backpressure. `564` проходящих теста, у каждого проекта анимированная
+схема и README с объяснением решений.
+
+`Python` · `Airflow` · `Spark` · `Kafka` · `ClickHouse` · `DWH`
+
+### [bioinformatics](https://github.com/kepanasyuke/bioinformatics) — пайплайны и воспроизводимость
+Семь небольших проектов под вакансию отдела биоинформатики и системного анализа: пайплайны, их поддержка,
+тестирование, воспроизводимость, экономия ресурсов и документация. Данные синтетические или публичные
+(GIAB, 1000 Genomes), все отчёты генерируются скриптами.
+
+`Python` · `пайплайны` · `pytest` · `HTML-отчёты`
+
+### [terminal-analytics-portfolio](https://github.com/kepanasyuke/terminal-analytics-portfolio) — аналитика терминальной сети
+Четыре проекта о данных POS-терминалов, киосков и банкоматов: сверка с процессингом, соблюдение SLA,
+поиск аномалий до того, как они станут простоем, и разбор потока заявок поддержки.
+
+`Python` · `SQL` · `аналитика` · `SLA`
+
+### [eight-projects](https://github.com/kepanasyuke/eight-projects) — восемь backend-проектов на Java
+Java 17 и Spring Boot 3.3: REST-контракт, устранение N+1, границы транзакций, многопоточность, брокер
+с outbox и DLQ, XML/XSD, подпись и сертификаты, WebSocket с машиной состояний. Плюс витрина с анимированным
+SVG и игра «Логика».
+
+`Java` · `Spring Boot` · `RabbitMQ` · `WebSocket` · `Maven`
+
+### [moex-vibe-portfolio](https://github.com/kepanasyuke/moex-vibe-portfolio) — восемь full-stack проектов про биржу
+React и TypeScript, REST, GraphQL и WebSocket, SSR, собственная дизайн-система и строгие правила линтера.
+
+`React` · `TypeScript` · `GraphQL` · `SSR` · `Vite`
+
 ### [something-else](https://github.com/kepanasyuke/something-else)
 Несколько независимых проектов в одной папке:
 
@@ -197,6 +269,8 @@ Flutter-приложение: заказы приходят по WebSocket, ра
 | **Бэкенд** | HTTP-сервисы на Python и FastAPI; сервисы на Laravel (PHP) с админками и интеграциями платежей; тесты, документация |
 | **Мобильная разработка** | Flutter и Dart: offline-first, WebSocket, Firebase, сборка под iOS и Android |
 | **AI-системы** | Локальные RAG-системы, поиск по знаниям, OpenAI-совместимые API, знаниевые графы |
+| **ML и моделирование** | Uplift-модели и промо-экономика, A/B-тесты, прогноз спроса и оттока, синтетические данные для проверки гипотез |
+| **1С и выгрузки** | Демо-приложения в интерфейсе 1С:Предприятие 8.3 (УТ, БП, ЗУП); разбор выгрузок: ОСВ, карточки счетов, проверка сальдо |
 | **Автоматизация** | Скрипты на Python и PowerShell, автоматическая отчётность, автотесты интерфейса |
 | **Инфраструктура** | Docker, Ansible, развёртывание сервисов на Linux, Git |
 | **Документация** | Техническая документация, по которой работает новый человек; ревью кода; наставничество |
